@@ -33,16 +33,13 @@ def wrap(string, max_width):
         wrapped_lines.append(string[i:i+max_width])
     return '\n'.join(wrapped_lines)
 
-# Example usage
-text = input("Enter a long string: ")
-width = int(input("Enter max width: "))
-print("\nWrapped Text:\n")
-print(wrap(text, width))
+string = input()
+max_width = int(input())
+print(wrap(string, max_width))
 ```
 
 ## Sample Output
-![image](https://github.com/user-attachments/assets/2b4d8e9d-9a10-442f-a211-8711293d4f67)
-
+![image](https://github.com/user-attachments/assets/37499057-1e08-479a-9acf-e25825ed4203)
 ## Result
 
-Program is verified successfully.
+Thus, the output is verified successfully
